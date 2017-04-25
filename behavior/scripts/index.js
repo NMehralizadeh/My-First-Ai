@@ -28,7 +28,7 @@ exports.handle = (client) => {
     },
 
     prompt() {
-      client.addResponse('welcome')
+      client.addResponse('apology/untrained')
       client.done()
     }
   })
